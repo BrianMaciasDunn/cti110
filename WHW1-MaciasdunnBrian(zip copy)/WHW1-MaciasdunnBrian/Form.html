@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Programming Survey</title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            width: 300px;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input[type="text"], select, textarea {
+            width: 100%;
+            margin-top: 5px;
+        }
+        textarea {
+            height: 100px;
+            background-color: yellow;
+            color: black;
+            resize: none;
+        }
+        fieldset {
+            margin-top: 10px;
+            border: 1px solid white;
+            padding: 10px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        button {
+            margin-top: 10px;
+            background-color: orange;
+            color: black;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Programming Survey</h2>
+
+    <nav>
+        <a href="index.html"><strong>Home</strong></a>
+        <a href="table.html"><strong>Table</strong></a>
+        <a href="form.html"><strong>Form</strong></a>
+        <a href="https://www.google.com" target="_blank"><strong>Google</strong></a>
+    </nav>
+
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" />
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" />
+
+        <label for="language">Select your favorite Programming Language:</label>
+        <select id="language" name="language">
+            <option>JavaScript</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>C++</option>
+            <option>Ruby</option>
+        </select>
+
+        <fieldset>
+            <legend>Years of Programming Experience</legend>
+            <label><input type="radio" name="experience" value="0-2" /> 0-2 years</label>
+            <label><input type="radio" name="experience" value="3-5" /> 3-5 years</label>
+            <label><input type="radio" name="experience" value="6-10" /> 6-10 years</label>
+            <label><input type="radio" name="experience" value="10+" /> 10+ years</label>
+        </fieldset>
+
+        <label for="comments">Enter your comment here...</label>
+        <textarea id="comments" name="comments" placeholder="Enter your comment here..."></textarea>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <h4>Address Block</h4>
+    <address>
+        100 College Blvd<br />
+        Fayetteville, NC 28301
+    </address>
+</body>
+</html>
