@@ -1,0 +1,47 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  color: #f7e87c;
+  font-family: 'Georgia', serif;
+  height: 100%;
+}
+.container {
+max-width: 800px;
+margin: 60px auto;
+text-align: center;
+padding: 20px;
+}
+.ring-image {
+max-width: 300px;
+width: 100%;
+height: auto;
+margin-bottom: 30px;
+box-shadow: 0 0 20px 5px #d4c66f;
+border-radius: 10px;
+display: inline-block;
+}
+.ring-text {
+font-weight: bold;
+font-size: 1.8rem;
+line-height: 1.4;
+text-shadow:
+0 0 8px #d4c66f,
+0 0 15px #bfa158;
+margin-bottom: 40px;
+}
+.button {
+display: inline-block;
+background-color: #2e5e2e;
+color: #f7e87c;
+padding: 12px 30px;
+text-decoration: none;
+font-weight: bold;
+border-radius: 25px;
+box-shadow: 0 0 10px #bfa158;
+transition: background-color 0.3s ease;
+font-size: 1rem;
+}
+.button:hover {
+  background-color: #3a7f3a;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>LOTR Feedback</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a> |
+<a href="characters.html">Characters</a> |
+<a href="funfacts.html">Fun Facts</a> |
+<a href="form.html">Feedback</a>
+</nav>
+<div class="container">
+<h1>Send Us Your Feedback</h1>
+<form action="#" method="post">
+<label for="character">Favorite Character:</label>
+<select id="character" name="character" required>
+<option value="frodo">Frodo</option>
+<option value="sam">Sam</option>
+<option value="gandalf">Gandalf</option>
+<option value="aragorn">Aragorn</option>
+<option value="legolas">Legolas</option>
+<option value="gimli">Gimli</option>
+<option value="boromir">Boromir</option>
+<option value="merry">Merry</option>
+<option value="pippin">Pippin</option>
+</select>
+<fieldset>
+<legend>Movie or Book?</legend>
+<label><input type="radio" name="version" value="movie" required> Movie</label><br>
+<label><input type="radio" name="version" value="book"> Book</label>
+</fieldset>
+<label for="comments">Your Thoughts:</label>
+<textarea id="comments" name="comments" rows="5" cols="40" placeholder="Share your thoughts here..."></textarea>
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset" />
+</form>
+</div>
+</body>
+</html>
